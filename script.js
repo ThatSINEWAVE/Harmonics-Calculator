@@ -15,8 +15,8 @@ function calculateHarmonics() {
     const harmonics = [];
     for (let i = 1; i <= 10; i++) {
         const harmonicFreq = frequency * i;
-        const wavelength = (300 / harmonicFreq).toFixed(3);
-        const ml = (wavelength * 0.95).toFixed(3);
+        const wavelength = (300 / harmonicFreq).toFixed(3);  // Wavelength in meters
+        const ml = (wavelength * 0.95).toFixed(3);  // Mechanical length with shorting factor k=0.95
         harmonics.push({
             harmonic: i,
             frequency: harmonicFreq.toFixed(3),
@@ -27,7 +27,7 @@ function calculateHarmonics() {
         });
     }
 
-    // Update table
+    // Update table with harmonics data
     tableBody.innerHTML = harmonics
         .map(
             (h) => `
@@ -43,7 +43,7 @@ function calculateHarmonics() {
         )
         .join("");
 
-    // Update chart
+    // Update chart with harmonics data
     updateGraph(harmonics, frequency);
 }
 
