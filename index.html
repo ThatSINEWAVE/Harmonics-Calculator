@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmonics Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header class="sticky-header">
+        <h1>📡 Harmonics Calculator</h1>
+        <p>Enter your transmission frequency (in MHz) to calculate its harmonics and properties.</p>
+        <input
+            type="number"
+            id="frequency"
+            placeholder="e.g., 14.200"
+            step="0.001"
+            min="0"
+            class="input-field"
+            oninput="calculateHarmonics()"
+        >
+    </header>
+
+    <div class="container">
+        <div id="table-container">
+            <h2>Harmonics Table</h2>
+            <p>The calculator returns the theoretical wavelength (WL) and mechanical lengths for full (ML), half (ML/2), quarter (ML/4) waves. The shorting factor used is k=0.95.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Harmonic</th>
+                        <th>Frequency (MHz)</th>
+                        <th>Wavelength (λ, m)</th>
+                        <th>ML (m)</th>
+                        <th>ML/2 (m)</th>
+                        <th>ML/4 (m)</th>
+                    </tr>
+                </thead>
+                <tbody id="harmonicsTableBody"></tbody>
+            </table>
+        </div>
+
+        <div id="chart-container">
+            <h2>Harmonics Chart</h2>
+            <canvas id="harmonicsChart"></canvas>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
