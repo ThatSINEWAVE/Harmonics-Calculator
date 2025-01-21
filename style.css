@@ -1,0 +1,90 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+.sticky-header {
+    top: 0;
+    background-color: #212946;
+    padding: 10px 30px; /* Reduced padding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    text-align: center;
+}
+
+.sticky-header h1 {
+    font-size: 1.8rem;
+    margin: 5px 0; /* Reduced margin */
+    color: #21e6c1;
+}
+
+.sticky-header p {
+    font-size: 1rem;
+    margin: 5px 0; /* Reduced margin */
+}
+
+.sticky-header .input-field {
+    width: 80%;
+    padding: 12px;
+    border: 2px solid #21e6c1;
+    border-radius: 6px;
+    background: #12192c;
+    color: #e0e0e0;
+    font-size: 1rem;
+}
+
+.container {
+    margin: 20px auto;
+    padding: 0 10px;
+    max-width: 900px;
+    text-align: center;
+}
+
+#table-container {
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: #12192c;
+}
+
+thead {
+    background: #1f2a44;
+}
+
+thead th {
+    padding: 10px;
+    text-align: center;
+    color: #21e6c1;
+}
+
+tbody td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #2e3b55;
+}
+
+tbody tr:nth-child(even) {
+    background: #1b2138;
+}
+
+#chart-container {
+    margin-top: 30px;
+    background: #12192c;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+canvas {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+}
