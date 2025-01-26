@@ -1,6 +1,6 @@
 <div align="center">
 
-# Harmonics Calculator
+# [Harmonics Calculator](https://thatsinewave.github.io/Harmonics-Calculator/)
 
 ![Harmonics-Calculator](https://github.com/user-attachments/assets/3cb0297f-4724-4e32-8828-661149423447)
 
