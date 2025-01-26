@@ -2,6 +2,8 @@
 
 # Harmonics Calculator
 
+![Harmonics-Calculator](https://github.com/user-attachments/assets/3cb0297f-4724-4e32-8828-661149423447)
+
 The **Harmonics Calculator** is a web-based application designed to help users calculate and visualize the harmonic frequencies and their corresponding properties based on a given transmission frequency.
 
 </div>
