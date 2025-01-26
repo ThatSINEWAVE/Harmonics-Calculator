@@ -1,8 +1,12 @@
-# 📡 Harmonics Calculator
+<div align="center">
+
+# Harmonics Calculator
 
 The **Harmonics Calculator** is a web-based application designed to help users calculate and visualize the harmonic frequencies and their corresponding properties based on a given transmission frequency.
 
-## 🛠 Features
+</div>
+
+## Features
 
 - **Interactive Frequency Input**: Enter a transmission frequency (in MHz) to calculate harmonics up to the 10th order.
 - **Harmonics Table**: View a detailed table showing:
@@ -27,7 +31,7 @@ The **Harmonics Calculator** is a web-based application designed to help users c
 - **JavaScript (ES6)**: Core functionality.
 - **Chart.js**: Interactive charts for data visualization.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Installation
 
