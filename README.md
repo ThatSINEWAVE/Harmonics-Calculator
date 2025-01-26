@@ -18,6 +18,12 @@ The **Harmonics Calculator** is a web-based application designed to help users c
 - **Dynamic Chart Visualization**: See harmonic frequencies plotted on a responsive chart for easy interpretation.
 - **Modern UI Design**: A clean, responsive interface with a dark theme for an enhanced user experience.
 
+<div align="center">
+
+## ☕ [Support my work on Ko-Fi](https://ko-fi.com/thatsinewave)
+
+</div>
+
 ## How It Works
 
 1. Enter a frequency in the input field (e.g., 14.200 MHz).
@@ -51,6 +57,12 @@ The **Harmonics Calculator** is a web-based application designed to help users c
    open index.html
    ```
    or simply drag and drop the file into your browser.
+
+<div align="center">
+
+## [Join my discord server](https://discord.gg/2nHHHBWNDw)
+
+</div>
 
 ## Contributing
 Contributions are welcome! If you find any bugs or have ideas for improvements, feel free to submit an issue or a pull request.
